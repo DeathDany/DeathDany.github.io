@@ -1,108 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-   <meta charset="utf-8">
-<meta name= "viewport" content="width=device-width initial-scale=1.0">
-  <title>Portafolio de Carlos Daniel Garcia Perez.</title>
-  <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Web - Carlos Daniel Garcia Perez.</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
-  <header>
-    <nav id="navbar">
-      <a href="#welcome-section" class="nav-link">About</a>
-      <a href="#projects" class="nav-link">Work</a>
-      <a href="#contacts" class="nav-link">Contact</a>
-    </nav>
-  </header>
-  
-  <main>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Carlos Garcia.</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
 
-    <section>
-      <img class="foto" src="foto.jpg" alt="foto ilustrativa de carlos daniel garcia perez."> 
-    </section>
-
-    <section id="welcome-section" class="main-section">
-      <h1>Que tal! Soy Carlos Daniel Garcia Perez.</h1>
-      <p class="p1">Ingeniero en Sistemas Computacionales.</p>
-      <p class="p1">Enfocado en el Desarrollo Web.</p>
-    </section>
-    
-    <section id="projects" class="main-section">
-      <h2>Estos son algunas de mis practicas en HTML</h2>
-      <div id="projects-content">
-      <a href="https://codepen.io/DeathDany_MX/pen/PoaMxop" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="Survey Form Preview">
-        Survey Form.</a>
-      <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642771/7cd6a0c4-6171-11e6-87fb-915f6084d104.png" alt="random quote machine preview">Random quote machine</a>
-      <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642772/7d02406c-6171-11e6-8c79-40a2933163dc.png" alt="javascript calculator preview">JavaScript calculator</a>
-      <a href="https://codepen.io/freeCodeCamp/full/mVEJag" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642773/7d08cb94-6171-11e6-8c45-22e7cf64683e.png" alt="map data across the globe preview">Map data across the globe</a>
-      <a href="https://codepen.io/freeCodeCamp/full/wGqEga" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642774/7d091806-6171-11e6-8d47-ecf2f2833fe2.png" alt="wikipedia viewer preview">Wikipedia viewer</a>
-      <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642775/7d354304-6171-11e6-8b56-66eee4681d88.png" alt="tic tac toe game preview">Tic Tac Toe game</a>
-      </div>
-    </section>
-
-    <section id="projects" class="second-section">
-      <h2>Estos son algunas de mis practicas en JavaScript</h2>
-      <div id="projects-content">
-      <a href="https://codepen.io/DeathDany_MX/pen/PoaMxop" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="Survey Form Preview">
-        Survey Form.</a>
-      <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642771/7cd6a0c4-6171-11e6-87fb-915f6084d104.png" alt="random quote machine preview">Random quote machine</a>
-      <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642772/7d02406c-6171-11e6-8c79-40a2933163dc.png" alt="javascript calculator preview">JavaScript calculator</a>
-      <a href="https://codepen.io/freeCodeCamp/full/mVEJag" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642773/7d08cb94-6171-11e6-8c45-22e7cf64683e.png" alt="map data across the globe preview">Map data across the globe</a>
-      <a href="https://codepen.io/freeCodeCamp/full/wGqEga" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642774/7d091806-6171-11e6-8d47-ecf2f2833fe2.png" alt="wikipedia viewer preview">Wikipedia viewer</a>
-      <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642775/7d354304-6171-11e6-8b56-66eee4681d88.png" alt="tic tac toe game preview">Tic Tac Toe game</a>
-      </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/foto1.jpg" alt="">
+            </div>
+            <h1>CARLOS GARCIA.</h1>
+            <h2>Ingeniero en Sistemas Computacionales - Desarrollador Web Jr.</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><span class="fas fa-github"></span></a>
+            </div>
+        </div>
     </section>
 
-    <section id="projects" class="third-section">
-      <h2>Estos son algunas de mis practicas en ReactJS</h2>
-      <div id="projects-content">
-      <a href="https://codepen.io/DeathDany_MX/pen/PoaMxop" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="Survey Form Preview">
-        Survey Form.</a>
-      <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642771/7cd6a0c4-6171-11e6-87fb-915f6084d104.png" alt="random quote machine preview">Random quote machine</a>
-      <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642772/7d02406c-6171-11e6-8c79-40a2933163dc.png" alt="javascript calculator preview">JavaScript calculator</a>
-      <a href="https://codepen.io/freeCodeCamp/full/mVEJag" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642773/7d08cb94-6171-11e6-8c45-22e7cf64683e.png" alt="map data across the globe preview">Map data across the globe</a>
-      <a href="https://codepen.io/freeCodeCamp/full/wGqEga" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642774/7d091806-6171-11e6-8d47-ecf2f2833fe2.png" alt="wikipedia viewer preview">Wikipedia viewer</a>
-      <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642775/7d354304-6171-11e6-8b56-66eee4681d88.png" alt="tic tac toe game preview">Tic Tac Toe game</a>
-      </div>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Que tal! soy Carlos Garcia..</span> Ingeniero en sistemas computacionales recien egresado, Gamer de corazon y amante del Rock lml y Metal.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            2555 5454545
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            cw@example.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
-<section id="contacts" class="contact-section">
-      <div class="contact-section-header">
-        <h2>Let's work together...</h2>
-        <p>How do you take your coffee?</p>
-      </div>
-      <div class="contact-links">
-        <a
-          href="https://facebook.com/freecodecamp"
-          target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-facebook-square"></i> Facebook</a
-        >
-        <a
-          id="profile-link"
-          href="https://github.com/freecodecamp"
-          target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-github"></i> GitHub</a
-        >
-        <a
-          href="https://twitter.com/freecodecamp"
-          target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-twitter"></i> Twitter</a
-        >
-        <a href="/cdn-cgi/l/email-protection#bbdec3dad6cbd7defbdec3dad6cbd7de95d8d4d6" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
-        >
-        <a href="tel:555-555-5555" class="btn contact-details"
-          ><i class="fas fa-mobile-alt"></i> Call me</a
-        >
-      </div>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ReactJS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bases de datos(SQL).</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-  
-  <footer>
-    <p><em>**This is just a fake portfolio.. All the projects and contact details given are not real..</em></p>
-    <p>© Created By DeathDany.</p>
-  </footer>
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="survey-form/m2.jpg" alt="preview of survey-form">
+                    <div class="overlay">
+                        <a href="survey-form/survey-form.html"><h3>Survey Form.</h3></a>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="tribute-page/m1.jpg" alt="">
+                    <div class="overlay">
+                        <a href="tribute-page/tribute-page.html"><h3>Tribute Page.</h3></a>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="tech-doc-page/m3.jpg" alt="">
+                    <div class="overlay">
+                        <a href="tech-doc-page/tech-doc-page.html"><h3>Technical Documentation Page.</h3></a>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="product-page/m4.jpg" alt="">
+                    <div class="overlay">
+                        <a href="product-page/product-page.html"><h3>Product Landing Page.</h3></a>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="personal-port/m5.jpg" alt="">
+                    <div class="overlay">
+                        <a href="personal-port/personal-port.html"><h3>Personal Portfolio.</h3></a>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                              
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                               
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                              
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fas fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
