@@ -28,7 +28,7 @@ html{
 }
 .contenedor-header header .logo a{
     font-family: 'Press Start 2P';
-    font-size: 36px;
+    font-size: 30px;
     color: red;
     text-decoration: none;
 }
@@ -83,7 +83,7 @@ html{
 }
 .inicio .contenido-banner h1{
     margin-top: 40px;
-    font-size: 42px;
+    font-size: 35px;
     font-family: 'Press Start 2P';
 }
 .inicio .contenido-banner h2{
@@ -116,14 +116,14 @@ html{
     margin: auto;
 }
 .sobremi h2{
-    font-size: 48px;
+    font-size: 38px;
     font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
 
 }
 .sobremi .contenido-seccion p{
-    font: 18px;
+    font: 16px;
     line-height: 22px;
     margin-bottom: 20px;
 }
@@ -179,7 +179,7 @@ html{
     background-color: red;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
 }
 .sobremi button{
@@ -219,7 +219,7 @@ html{
     margin: auto;
 }
 .skills h2{
-    font-size: 48px;
+    font-size: 38px;
     font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
@@ -233,7 +233,7 @@ html{
     padding: 0 20px;
 }
 .skills .fila .col h3{
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Press Start 2P';
     margin-bottom: 25px;
 }
@@ -352,7 +352,7 @@ html{
     margin: auto;
 }
 .portfolio h2{
-    font-size: 48px;
+    font-size: 38px;
     font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
@@ -384,7 +384,7 @@ html{
     flex-direction: column;
     justify-content: center;
     transition: 1s;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 3px;
     opacity: 0;
 }
@@ -410,7 +410,7 @@ html{
     margin: auto;
 }
 .contacto h2{
-    font-size: 48px;
+    font-size: 38px;
     font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
@@ -431,7 +431,7 @@ html{
     margin-bottom: 20px;
     background-color: #252A2E;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 .contacto button{
     cursor: pointer;
@@ -503,7 +503,7 @@ footer .redes a{
     height: 42px;
     line-height: 42px;
     margin: 40px 5px;
-    font-size: 20px;
+    font-size: 18px;
     transition: .3s;
 }
 footer .arriba{
@@ -518,7 +518,7 @@ footer .arriba{
     top: -25px;
     border-radius: 50%;
     line-height: 50px;
-    font-size: 18px;
+    font-size: 17px;
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
