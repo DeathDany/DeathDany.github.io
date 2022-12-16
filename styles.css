@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 *{
     box-sizing: border-box;
-    font-family: 'Work Sans';
+    font-family: 'Press Start 2P';
     margin: 0;
     padding: 0;
 }
@@ -27,7 +27,7 @@ html{
     padding: 15px 20px;
 }
 .contenedor-header header .logo a{
-    font-family: 'Righteous';
+    font-family: 'Press Start 2P';
     font-size: 36px;
     color: red;
     text-decoration: none;
@@ -84,7 +84,7 @@ html{
 .inicio .contenido-banner h1{
     margin-top: 40px;
     font-size: 42px;
-    font-family: 'Righteous';
+    font-family: 'Press Start 2P';
 }
 .inicio .contenido-banner h2{
     font-size: 15px;
@@ -117,7 +117,7 @@ html{
 }
 .sobremi h2{
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
 
@@ -140,7 +140,7 @@ html{
 }
 .sobremi .fila .col h3{
     font-size: 28px;
-    font-family: 'Righteous';
+    font-family: 'Press Start 2P';
     margin-bottom: 25px;
 }
 .sobremi .fila .col ul{
@@ -220,7 +220,7 @@ html{
 }
 .skills h2{
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
 
@@ -234,7 +234,7 @@ html{
 }
 .skills .fila .col h3{
     font-size: 28px;
-    font-family: 'Righteous';
+    font-family: 'Press Start 2P';
     margin-bottom: 25px;
 }
 .skills .skill > span{
@@ -353,7 +353,7 @@ html{
 }
 .portfolio h2{
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
 }
@@ -411,7 +411,7 @@ html{
 }
 .contacto h2{
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
 }
