@@ -4,7 +4,6 @@
     font-family: 'Press Start 2P';
     margin: 0;
     padding: 0;
-    font-size: 20px;
 }
 html{
     /* me permite deslizar cuando hago clic en los links del menu */
@@ -29,7 +28,7 @@ html{
 }
 .contenedor-header header .logo a{
     font-family: 'Press Start 2P';
-    font-size: 30px;
+    font-size: 20px;
     color: red;
     text-decoration: none;
 }
@@ -44,6 +43,7 @@ html{
     padding: 3px;
     transition: .5s;
     text-decoration: none;
+    font-size: 12px;
 }
 .contenedor-header header nav ul li a:hover{
     color: red;
@@ -84,11 +84,11 @@ html{
 }
 .inicio .contenido-banner h1{
     margin-top: 40px;
-    font-size: 35px;
+    font-size: 22px;
     font-family: 'Press Start 2P';
 }
 .inicio .contenido-banner h2{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: normal;
 }
 .inicio .contenido-banner .redes a{
@@ -101,7 +101,7 @@ html{
     height: 42px;
     line-height: 42px;
     margin: 40px 5px;
-    font-size: 20px;
+    font-size: 25px;
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
@@ -117,14 +117,14 @@ html{
     margin: auto;
 }
 .sobremi h2{
-    font-size: 38px;
+    font-size: 25px;
     font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
 
 }
 .sobremi .contenido-seccion p{
-    font: 16px;
+    font: 1px;
     line-height: 22px;
     margin-bottom: 20px;
 }
@@ -140,7 +140,7 @@ html{
     width: 50%;
 }
 .sobremi .fila .col h3{
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Press Start 2P';
     margin-bottom: 25px;
 }
@@ -180,7 +180,7 @@ html{
     background-color: red;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 .sobremi button{
@@ -191,7 +191,7 @@ html{
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
     position: relative;
     z-index: 10;
@@ -220,7 +220,7 @@ html{
     margin: auto;
 }
 .skills h2{
-    font-size: 38px;
+    font-size: 25px;
     font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
@@ -234,7 +234,7 @@ html{
     padding: 0 20px;
 }
 .skills .fila .col h3{
-    font-size: 24px;
+    font-size: 19px;
     font-family: 'Press Start 2P';
     margin-bottom: 25px;
 }
@@ -267,7 +267,7 @@ html{
     text-align: center;
     top: -17px;
     right: -15px;
-    font-size: 14px;
+    font-size: 10px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
@@ -353,7 +353,7 @@ html{
     margin: auto;
 }
 .portfolio h2{
-    font-size: 38px;
+    font-size: 25px;
     font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
@@ -385,7 +385,7 @@ html{
     flex-direction: column;
     justify-content: center;
     transition: 1s;
-    font-size: 17px;
+    font-size: 12px;
     letter-spacing: 3px;
     opacity: 0;
 }
@@ -401,7 +401,6 @@ html{
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-image: url(img/contact_bg.png);
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
@@ -411,7 +410,7 @@ html{
     margin: auto;
 }
 .contacto h2{
-    font-size: 38px;
+    font-size: 25px;
     font-family: 'Press Start 2P';
     text-align: center;
     padding: 20px 0;
@@ -432,7 +431,7 @@ html{
     margin-bottom: 20px;
     background-color: #252A2E;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
 }
 .contacto button{
     cursor: pointer;
@@ -442,7 +441,7 @@ html{
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     position: relative;
     z-index: 10;
@@ -519,7 +518,7 @@ footer .arriba{
     top: -25px;
     border-radius: 50%;
     line-height: 50px;
-    font-size: 17px;
+    font-size: 16px;
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
